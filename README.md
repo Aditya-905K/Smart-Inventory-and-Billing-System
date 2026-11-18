@@ -143,4 +143,4 @@ SET total_amount = (
 
 ## About me
 
-I'm Aditya Kumar, a B.Tech student at LNCT, Indore. This project helped me understand how SQL, Python and a simple UI fit together. Feedback and suggestions are welcome.
+I'm Aditya Kumar, a B.Tech student at LNCT, Bhopal. This project helped me understand how SQL, Python and a simple UI fit together. Feedback and suggestions are welcome.
