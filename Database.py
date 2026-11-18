@@ -1,0 +1,19 @@
+import psycopg2
+import os
+import psycopg2
+from dotenv import load_dotenv
+
+load_dotenv()
+
+def connection():
+    con = psycopg2.connect(
+        host=os.getenv("DB_HOST"),
+        database=os.getenv("DB_NAME"),
+        user=os.getenv("DB_USER"),
+        password=os.getenv("DB_PASSWORD"),
+        port=os.getenv("DB_PORT"),
+    )
+    print("Connection established")
+    return con
+
+conn = connection()
